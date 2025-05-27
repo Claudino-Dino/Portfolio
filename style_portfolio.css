@@ -6,11 +6,15 @@
   font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background: #27416b;
     color: #E3DCD1;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Clash Grotesk', sans-serif;
 }
 
@@ -19,6 +23,9 @@ h1 {
 }
 
 nav {
+    top: 10px;
+    position: sticky;
+    background: #27416b;
     padding: 10px;
     margin: 0;
     display: flex;
@@ -92,4 +99,8 @@ p {
 .falecomigo {
     display: flex;
     flex-flow: row wrap;
+}
+
+.container {
+    margin-bottom: 100px;
 }
