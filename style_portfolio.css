@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('/fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+       url('/fonts/ClashGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #27416b;
+    color: #E3DCD1;
+    height: 100vh;
+    font-family: 'Clash Grotesk', sans-serif;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+nav {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0px 7px 1px #072949;
+}
+
+nav a{
+    color: #E3DCD1;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav a:hover {
+    font-weight: normal;
+    opacity: 70%;
+}
+
+div {
+    margin: 20px;
+}
+
+div div{
+    background: #072949;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projetos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.projetos a {
+    display: flex;
+    background-color: #E3DCD1;
+    margin: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 50%;
+}
+
+img {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+div div a:hover{
+    opacity: 80%;
+}
+
+p {
+    display: flex;
+}
+
+.falecomigo {
+    display: flex;
+    flex-flow: row wrap;
+}
