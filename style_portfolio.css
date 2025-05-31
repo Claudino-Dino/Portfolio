@@ -65,6 +65,59 @@ div div{
     flex-direction: column;
 }
 
+.sobremim  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.sobremim img, p{
+    height: 40%;
+    width: 40%;
+}
+
+.sobremim img {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+}
+
+.sobremim span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:  290px;
+    width: 290px;
+    background:#E3DCD1;
+    border-radius: 50%;
+}
+
+@media (max-width: 796px) {
+    .sobremim img {
+        height: 225px;
+        width: 225px;
+    }  
+    
+    .sobremim span {
+        height:  240px;
+        width: 240px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .sobremim img {
+        height: 150px;
+        width: 150px;
+    }  
+    
+    .sobremim span {
+        height:  165px;
+        width: 165px;
+    }
+}
+
 .projetos {
     display: flex;
     flex-flow: column wrap;
